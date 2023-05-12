@@ -1,0 +1,85 @@
+!DOCTYPE html
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equi="X-UA-Compatible" content="IE=edge">
+        <title>document</title>
+        <style> 
+        *{
+              padding:0;
+              margin:0;
+
+        }
+        #main{display: grid;
+        grid-template-areas;"header header" "nav nav" "content aside" "footer footer";
+        grid-template-rows:15wh 10vh 55vh 10vh;
+
+    }
+     
+    .maindheder{grid-area: header; background: red}
+    .mainnav{grid-area:nav; background: rgb( 0, 68,255);
+    .maincontet{grid-area:content; background: rbg (255, 0, 0;}
+    .mainaside {grind-ares:aside; background: rbg(255, 0, 0);}
+    @meda screen an (maxwdth:768%){
+        body{background;#cdcdcd}
+        #main{!DOCTYPE html
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equi="X-UA-Compatible" content="IE=edge">
+        <title>document</title>
+        <style> 
+        *{
+              padding:0;
+              margin:0;
+
+        }
+        #main{display: grid;
+        grid-template-areas;"header header" "nav nav" "content aside" "footer footer";
+        grid-template-rows:15wh 10vh 55vh 10vh;
+
+    }
+     
+    .maindheder{grid-area: header; background: red}
+    .mainnav{grid-area:nav; background: rgb( 0, 68,255);
+    .maincontet{grid-area:content; background: rbg (255, 0, 0;}
+    .mainaside {grind-ares:aside; background: rbg(255, 0, 0);}
+    @meda screen an (maxwdth:768%){
+        body{background;#cdcdcd}
+        #main{
+            grid-area:head;margin=top:20px;
+        
+
+        }
+    }
+        </style>
+    </head>
+    <body> 
+        <main id="main">
+            <header class="maindheder">header</header>
+            <nav class="mainnav" >nav</nav>
+            <article class="maincontent">content</article>
+            <aside class="mainaside">aside</aside>
+            <footer class="mainfooter">footer</footer>
+        </main>
+    
+    </body>
+    </html>
+            grid-area:head;margin=top:20px;
+        
+
+        }
+    }
+        </style>
+    </head>
+    <body> 
+        <main id="main">
+            <header class="maindheder">header</header>
+            <nav class="mainnav" >nav</nav>
+            <article class="maincontent">content</article>
+            <aside class="mainaside">aside</aside>
+            <footer class="mainfooter">footer</footer>
+        </main>
+    
+    </body>
+    </html>
